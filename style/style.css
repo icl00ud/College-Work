@@ -565,25 +565,6 @@ footer{
 
 /* Responsive CSS */
 
-@media screen and (max-width: 1370px){
-
-	.places-to-see {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-		width: auto;
-	}
-
-	.box-title h2{
-		padding-top: 0px;
-	}
-
-	.apresentation-place .box-title>h5{
-		padding-bottom: 15px;
-	}
-}
-
 @media screen and (max-width: 1110px) {
 	
 	.w33{
@@ -639,6 +620,22 @@ footer{
 		justify-content: space-around;
 		text-align: center;
 		align-items: center;
+	}
+
+	.places-to-see {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+	}
+
+	.box-title h2{
+		padding-top: 0px;
+	}
+
+	.apresentation-place .box-title>h5{
+		padding-bottom: 15px;
 	}
 
 }
