@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -7,39 +7,40 @@
 
 /* Boot CSS */
 
-html, body{
+html,
+body {
 	height: 100%;
 	scroll-behavior: smooth;
 }
 
-body{
+body {
 	overflow-x: hidden;
 }
 
-.center{
+.center {
 	max-width: 1280px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
 
-.w33{
-    width: 33%;
+.w33 {
+	width: 33%;
 }
 
-.w50{
+.w50 {
 	padding: 0 2%;
 	width: 50%;
 }
 
-.left{
+.left {
 	float: left;
 }
 
-.right{
+.right {
 	float: right;
 }
 
-.clear{
+.clear {
 	clear: both;
 }
 
@@ -47,32 +48,32 @@ body{
 
 /* Cabeçalho */
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 
-    padding: 0px 200px;
+	padding: 0px 200px;
 }
 
-.logo>a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+.logo>a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 }
 
-.logo a>h3{
-    padding: 0 15px;
-    color: black; 
-    font-size: 24px;
+.logo a>h3 {
+	padding: 0 15px;
+	color: black;
+	font-size: 24px;
 }
 
-nav.desktop ul{
+nav.desktop ul {
 	list-style-type: none;
 }
 
-nav.desktop li{
+nav.desktop li {
 	font-weight: 600;
 	font-size: 24px;
 	padding: 0 30px;
@@ -80,24 +81,24 @@ nav.desktop li{
 	display: inline-block;
 }
 
-nav.desktop li>a{
+nav.desktop li>a {
 	color: black;
 }
 
-nav.desktop a{
+nav.desktop a {
 	transition: 1s;
 	text-decoration: none;
 }
 
-nav.desktop a:hover{
+nav.desktop a:hover {
 	color: grey;
 }
 
-nav.mobile{
+nav.mobile {
 	display: none;
 }
 
-nav.mobile li{
+nav.mobile li {
 	font-weight: 600;
 	font-size: 20px;
 	padding: 0 30px;
@@ -105,7 +106,7 @@ nav.mobile li{
 	list-style-type: none;
 }
 
-nav.mobile li>a{
+nav.mobile li>a {
 	color: black;
 }
 
@@ -113,13 +114,13 @@ nav.mobile li>a{
 
 /* Body */
 
-section.banner-container{
+section.banner-container {
 	width: 100%;
 	height: 600px;
 	position: relative;
 }
 
-.banner-single{
+.banner-single {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
@@ -128,7 +129,7 @@ section.banner-container{
 	background-position: center;
 }
 
-.overlay{
+.overlay {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -138,7 +139,7 @@ section.banner-container{
 	background-color: rgba(152, 152, 152, 0.2);
 }
 
-.bullets{
+.bullets {
 	z-index: 5;
 	bottom: 0;
 	left: 50%;
@@ -146,7 +147,7 @@ section.banner-container{
 	position: absolute;
 }
 
-.bullets span{
+.bullets span {
 	display: inline-block;
 	margin-right: 10px;
 	width: 10px;
@@ -156,76 +157,76 @@ section.banner-container{
 	background-color: rgba(152, 152, 152, 0.3);
 }
 
-.bullets span.active-slider{
+.bullets span.active-slider {
 	background: black;
 }
 
-.title-box-content{
-    font-size: 32px;
-    margin-top: 40px;
-    margin-left: 100px;
+.title-box-content {
+	font-size: 32px;
+	margin-top: 40px;
+	margin-left: 100px;
 }
 
-.box-places-travel{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+.box-places-travel {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
 }
 
-.box-content{
-    margin: 0px 100px;
-    margin-top: 50px;
-    margin-bottom: 75px;
-    height: 350px;
-	
-    background-color: rgba(152, 152, 152, 0.3);
-    border-radius: 18px;
+.box-content {
+	margin: 0px 100px;
+	margin-top: 50px;
+	margin-bottom: 75px;
+	height: 350px;
+
+	background-color: rgba(152, 152, 152, 0.3);
+	border-radius: 18px;
 }
 
-.box-content img{
-    width: 100%;
-    height: 100%;
-    border-radius: 18px 18px 0px 0px;
+.box-content img {
+	width: 100%;
+	height: 100%;
+	border-radius: 18px 18px 0px 0px;
 }
 
-.box-content:nth-of-type(1){
-    background-color: rgb(222,49,81); 
+.box-content:nth-of-type(1) {
+	background-color: rgb(222, 49, 81);
 }
 
-.box-image-bangkok .banner-bangkok{
+.box-image-bangkok .banner-bangkok {
 	width: 100%;
 	height: 100px;
 }
 
-.box-content:nth-of-type(2){
-    background-color: rgb(59, 29, 230); 
+.box-content:nth-of-type(2) {
+	background-color: rgb(59, 29, 230);
 }
 
-.box-content:nth-of-type(3){
-    background-color: rgb(188,26,110); 
+.box-content:nth-of-type(3) {
+	background-color: rgb(188, 26, 110);
 }
 
-.box-title{
-    font-size: 22px;
-    padding: 10px 20px;
-    color: white;
+.box-title {
+	font-size: 22px;
+	padding: 10px 20px;
+	color: white;
 }
 
-.box-title h2{
+.box-title h2 {
 	font-size: 30px;
 	padding-top: 30px;
 }
 
-.box-description{
-    font-size: 16px;
-    font-weight: 300;
-    padding: 10px 20px;
-    color: white;
+.box-description {
+	font-size: 16px;
+	font-weight: 300;
+	padding: 10px 20px;
+	color: white;
 	text-align: left;
 }
 
-.box-content a{
+.box-content a {
 	text-decoration: none;
 }
 
@@ -237,29 +238,38 @@ section.banner-container{
 	background-color: white;
 }
 
-.mySlides1,.mySlides2,.mySlides3{
+.mySlides1,
+.mySlides2,
+.mySlides3 {
 	display: none;
 }
 
-.mySlides1>img,.mySlides2>img,.mySlides3>img{
+.mySlides1>img,
+.mySlides2>img,
+.mySlides3>img {
 	max-height: 227px;
 	height: 100%;
 }
 
-.fade{
+.fade {
 	animation-name: fade;
 	animation-duration: 5s;
 	max-height: 227px;
 }
 
-@keyframes fade{
-	from {opacity: 0.6}
-	to {opacity: 1}
+@keyframes fade {
+	from {
+		opacity: 0.6
+	}
+
+	to {
+		opacity: 1
+	}
 }
 
 /* Bangkok Page */
 
-.title-places h1{
+.title-places h1 {
 	margin-top: 15px;
 	padding-left: 100px;
 	padding-bottom: 30px;
@@ -269,70 +279,70 @@ section.banner-container{
 	font-size: 42px;
 }
 
-.places-to-see{
+.places-to-see {
 	display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: flex-start;
+	justify-content: center;
+	flex-direction: row;
+	align-items: flex-start;
 
-    background-color: rgba(152, 152, 152, 0.2);
+	background-color: rgba(152, 152, 152, 0.2);
 }
 
-.apresentation-place{
-    margin: 0px 100px;
-    border-radius: 18px;
+.apresentation-place {
+	margin: 0px 100px;
+	border-radius: 18px;
 }
 
-.apresentation-place img{
-    width: 300px;
+.apresentation-place img {
+	width: 300px;
 	max-height: 200px;
-    border-radius: 18px 18px 18px 18px;
+	border-radius: 18px 18px 18px 18px;
 }
 
-.apresentation-place .box-title{
+.apresentation-place .box-title {
 	text-align: center;
 	color: black;
 }
 
-.apresentation-place .box-title>h5{
+.apresentation-place .box-title>h5 {
 	font-weight: 400;
 	font-style: italic;
 }
 
-.local-food{
+.local-food {
 	display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: row;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.title-local-food{
+.title-local-food {
 	font-size: 42px;
 	padding-left: 100px;
-    padding-top: 40px;
+	padding-top: 40px;
 }
 
-.local-food-itens{
+.local-food-itens {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
-.local-food-itens h2{
+.local-food-itens h2 {
 	padding-bottom: 25px;
 	font-size: 24px;
 }
 
-.local-food-itens img{
+.local-food-itens img {
 	width: 300px;
 	max-height: 450px;
 	border-radius: 15px 15px 15px 15px;
 }
 
-.local-food-itens p{
+.local-food-itens p {
 	padding-top: 25px;
 	width: 60%;
 	text-align: left;
@@ -340,75 +350,75 @@ section.banner-container{
 	font-weight: 500;
 }
 
-.transport-type{
+.transport-type {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 
 	background-color: rgba(152, 152, 152, 0.2);
 	padding-bottom: 35px;
 }
 
-.text-transport{
+.text-transport {
 	display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.title-transport-type{
+.title-transport-type {
 	font-size: 42px;
 	padding-left: 100px;
-    padding-top: 35px;
+	padding-top: 35px;
 	padding-bottom: 30px;
 
 	background-color: rgba(152, 152, 152, 0.2);
 }
 
-.text-transport{
+.text-transport {
 	padding-left: 100px;
 	padding-right: 100px;
 }
 
-.text-transport p{
+.text-transport p {
 	font-size: 22px;
 	width: 100%;
 	padding-bottom: 25px;
 }
 
-.text-transport li{
+.text-transport li {
 	list-style: circle;
 	padding: 5px 0;
 	font-size: 22px;
 	font-weight: bold;
 }
 
-.images-transport-box{
+.images-transport-box {
 	padding-top: 25px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	text-align: center;
 }
 
-.images-transport h1{
+.images-transport h1 {
 	padding-bottom: 10px;
 }
 
-.images-transport img{
+.images-transport img {
 	border-radius: 15px 15px 15px 15px;
-	
+
 	max-height: 250px;
 }
 
-.description-places{
+.description-places {
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 }
 
-#the-great-palace{
+#the-great-palace {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 100px;
@@ -417,30 +427,30 @@ section.banner-container{
 	color: blue;
 }
 
-.great-palace-description{
+.great-palace-description {
 	width: 50%;
 }
 
-.description-places p{
+.description-places p {
 	font-size: 20px;
 	padding-left: 100px;
 	font-weight: 550;
 }
 
-.description-places h3{
+.description-places h3 {
 	font-size: 24px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 100px;
 }
 
-.description-places img{
+.description-places img {
 	width: 75%;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
 
-#wat-arun-rajwararam{
+#wat-arun-rajwararam {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 45px;
@@ -449,56 +459,16 @@ section.banner-container{
 	color: blue;
 }
 
-.wat-arun-rajwararam-description{
+.wat-arun-rajwararam-description {
 	width: 50%;
 }
 
-.sky-hotel-description{
-	width: 50%;
-	padding-bottom: 50px;
-}
-
-#sky-hotel{
-	font-size: 42px;
-	padding-left: 100px;
-	padding-top: 45px;
-	padding-bottom: 30px;
-
-	color: blue;
-}
-
-#wat-suthep{
-	font-size: 42px;
-	padding-left: 100px;
-	padding-top: 45px;
-	padding-bottom: 30px;
-
-	color: blue;
-}
-
-.wat-suthep-description{
-	width: 50%;
-}
-
-#wat-suphan{
-	font-size: 42px;
-	padding-left: 100px;
-	padding-top: 45px;
-	padding-bottom: 30px;
-
-	color: blue;
-}
-
-.wat-suphan-description{
-	width: 50%;
-}
-
-.bamboo-raft-description{
+.sky-hotel-description {
 	width: 50%;
 	padding-bottom: 50px;
 }
 
-#bamboo-raft{
+#sky-hotel {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 45px;
@@ -507,11 +477,20 @@ section.banner-container{
 	color: blue;
 }
 
-.boat-tour-description{
+#wat-suthep {
+	font-size: 42px;
+	padding-left: 100px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+
+	color: blue;
+}
+
+.wat-suthep-description {
 	width: 50%;
 }
 
-#boat-tour{
+#wat-suphan {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 45px;
@@ -520,11 +499,16 @@ section.banner-container{
 	color: blue;
 }
 
-.dive-phiphi-description{
+.wat-suphan-description {
 	width: 50%;
 }
 
-#dive-phiphi{
+.bamboo-raft-description {
+	width: 50%;
+	padding-bottom: 50px;
+}
+
+#bamboo-raft {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 45px;
@@ -533,12 +517,38 @@ section.banner-container{
 	color: blue;
 }
 
-.trails-phiphi-description{
+.boat-tour-description {
+	width: 50%;
+}
+
+#boat-tour {
+	font-size: 42px;
+	padding-left: 100px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+
+	color: blue;
+}
+
+.dive-phiphi-description {
+	width: 50%;
+}
+
+#dive-phiphi {
+	font-size: 42px;
+	padding-left: 100px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+
+	color: blue;
+}
+
+.trails-phiphi-description {
 	width: 50%;
 	padding-bottom: 30px;
 }
 
-#trails-phiphi{
+#trails-phiphi {
 	font-size: 42px;
 	padding-left: 100px;
 	padding-top: 45px;
@@ -547,13 +557,13 @@ section.banner-container{
 	color: blue;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
 /* Fim Bangkok Page */
 
-footer{
+footer {
 	width: 100%;
 	bottom: 0;
 	background-color: rgba(152, 152, 152, 0.2);
@@ -566,38 +576,38 @@ footer{
 /* Responsive CSS */
 
 @media screen and (max-width: 1110px) {
-	
-	.w33{
+
+	.w33 {
 		width: 50%;
 	}
 
-	.cabecalho{
+	.cabecalho {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-around;
 	}
 
-	nav.mobile{
+	nav.mobile {
 		display: block;
 	}
 
-	nav.desktop{
+	nav.desktop {
 		display: none;
 	}
 
-	.box-places-travel{
+	.box-places-travel {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.box-content{
+	.box-content {
 		height: 300px;
 	}
 
-	footer{
+	footer {
 		position: relative;
 		bottom: 0;
 	}
@@ -630,16 +640,12 @@ footer{
 		width: auto;
 	}
 
-	.box-title h2{
+	.box-title h2 {
 		padding-top: 0px;
 	}
 
-	.apresentation-place .box-title>h5{
+	.apresentation-place .box-title>h5 {
 		padding-bottom: 15px;
 	}
 
 }
-
-
-
-
